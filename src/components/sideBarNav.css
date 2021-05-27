@@ -12,7 +12,7 @@ i{
     left: 0;
     background-color: #1E1E1E;
     overflow-x: hidden;
-    padding-top: 180px;
+    padding-top: 200px;
 }
 
 .navlink {
@@ -24,11 +24,17 @@ i{
     margin-top: 25px;
 }
 
+.selected
+{
+    background-color: #094771;
+}
+
 .navlink:hover
 {
-    color: #f1f1f1;
+    color: #cac4c4;
     background-color: #2A2D2E;
 }
+
 
 @media screen and (max-height: 450px){
     .sidebar {padding-top: 15px;}

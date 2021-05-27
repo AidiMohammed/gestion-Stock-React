@@ -1,9 +1,13 @@
 import React from 'react'
+import {useReducer,useEffect} from 'react'
 import SideBarNav from '../components/SideBarNav'
 import '../helpers/main.css'
 
 
 function Dashboard() {
+    useEffect(() =>{
+        
+    },[])
     return (
         <div >
             <SideBarNav />
