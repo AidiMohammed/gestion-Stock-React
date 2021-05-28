@@ -22,6 +22,7 @@ i{
     color: #818181;
     display: block;
     margin-top: 25px;
+    
 }
 
 .selected
@@ -36,7 +37,7 @@ i{
 }
 
 
-@media screen and (max-height: 450px){
+/*@media screen and (max-height: 450px){
     .sidebar {padding-top: 15px;}
     .navlink {font-size: 18px;}
-}
+}*/

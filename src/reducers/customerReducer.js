@@ -15,7 +15,11 @@ export default function(state = initState,action)
             Update Customer 
             Remove Customer
     */
-    switch (action.type) {
+    switch (action.type) 
+    {
+        case "GET_CUSTOMER":
+            {return state}
+
         default:
             {return state}
     }

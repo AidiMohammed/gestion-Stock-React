@@ -1,4 +1,8 @@
+.minicharts{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
 .main{
-    margin-left:  250px;
+    margin-left: 250px;
     padding: 0px 10px;
 }
